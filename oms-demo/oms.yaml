@@ -1,0 +1,10 @@
+oms: 1
+info:
+  version: 1.0.1
+  title: Currency Converter
+  description: This is a sample currency converter service
+  contact:
+    name: Zoe
+    url: https://zoe.im
+    email: hi@zoe.im
+
