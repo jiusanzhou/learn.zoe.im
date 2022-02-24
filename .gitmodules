@@ -1,0 +1,223 @@
+[submodule "earthly"]
+	path = earthly
+	url = https://github.com/earthly/earthly
+
+[submodule "etcd"]
+	path = etcd
+	url = https://github.com/etcd-io/etcd
+
+[submodule "Auto.js"]
+	path = Auto.js
+	url = https://github.com/hyb1996/Auto.js
+
+[submodule "TSDK"]
+	path = TSDK
+	url = https://github.com/xinlingqudongX/TSDK
+
+[submodule "ants"]
+	path = ants
+	url = https://github.com/panjf2000/ants
+
+[submodule "authelia"]
+	path = authelia
+	url = https://github.com/authelia/authelia
+
+[submodule "backstage"]
+	path = backstage
+	url = https://github.com/backstage/backstage
+
+[submodule "binctr"]
+	path = binctr
+	url = https://github.com/genuinetools/binctr
+
+[submodule "cgroups"]
+	path = cgroups
+	url = https://github.com/containerd/cgroups
+
+[submodule "chaos-mesh"]
+	path = chaos-mesh
+	url = https://github.com/chaos-mesh/chaos-mesh
+
+[submodule "containerd"]
+	path = containerd
+	url = https://github.com/containerd/containerd
+
+[submodule "cri-api"]
+	path = cri-api
+	url = https://github.com/kubernetes/cri-api
+
+[submodule "cri-o"]
+	path = cri-o
+	url = https://github.com/cri-o/cri-o
+
+[submodule "cri-tools"]
+	path = cri-tools
+	url = https://github.com/kubernetes-sigs/cri-tools
+
+[submodule "docker"]
+	path = docker
+	url = https://github.com/docker/docker
+
+[submodule "docker-slim"]
+	path = docker-slim
+	url = https://github.com/docker-slim/docker-slim
+
+[submodule "event-manager"]
+	path = event-manager
+	url = https://github.com/rust-vmm/event-manager
+
+[submodule "evio"]
+	path = evio
+	url = https://github.com/tidwall/evio
+
+[submodule "fasthttp"]
+	path = fasthttp
+	url = https://github.com/valyala/fasthttp
+
+[submodule "firecracker"]
+	path = firecracker
+	url = https://github.com/firecracker-microvm/firecracker
+
+[submodule "firecracker-containerd"]
+	path = firecracker-containerd
+	url = https://github.com/firecracker-microvm/firecracker-containerd
+
+[submodule "gnet"]
+	path = gnet
+	url = https://github.com/panjf2000/gnet
+
+[submodule "hamibot"]
+	path = hamibot
+	url = https://github.com/hamibot/hamibot
+
+[submodule "harbor"]
+	path = harbor
+	url = https://github.com/goharbor/harbor
+
+[submodule "iced"]
+	path = iced
+	url = https://github.com/iced-rs/iced
+
+[submodule "kata-agent"]
+	path = kata-agent
+	url = https://github.com/kata-containers/agent
+
+[submodule "kata-containers"]
+	path = kata-containers
+	url = https://github.com/kata-containers/kata-containers
+
+[submodule "kata-runtime"]
+	path = kata-runtime
+	url = https://github.com/kata-containers/runtime
+
+[submodule "kratos"]
+	path = kratos
+	url = https://github.com/go-kratos/kratos
+
+[submodule "krustlet"]
+	path = krustlet
+	url = https://github.com/krustlet/krustlet
+
+[submodule "kube-vip"]
+	path = kube-vip
+	url = https://github.com/kube-vip/kube-vip
+
+[submodule "kubernetes"]
+	path = kubernetes
+	url = https://github.com/kubernetes/kubernetes
+
+[submodule "kubeadm"]
+	path = kubeadm
+	url = https://github.com/kubernetes/kubeadm
+
+[submodule "kvm-bindings"]
+	path = kvm-bindings
+	url = https://github.com/rust-vmm/kvm-bindings
+
+[submodule "kvm-ioctls"]
+	path = kvm-ioctls
+	url = https://github.com/rust-vmm/kvm-ioctls
+
+[submodule "linkerd2"]
+	path = linkerd2
+	url = https://github.com/linkerd/linkerd2
+
+[submodule "linkerd2-proxy"]
+	path = linkerd2-proxy
+	url = https://github.com/linkerd/linkerd2-proxy
+
+[submodule "linux-loader"]
+	path = linux-loader
+	url = https://github.com/rust-vmm/linux-loader
+
+[submodule "logowl"]
+	path = logowl
+	url = https://github.com/jz222/logowl
+
+[submodule "metrics-server"]
+	path = metrics-server
+	url = https://github.com/kubernetes-sigs/metrics-server
+
+[submodule "rio"]
+	path = rio
+	url = https://github.com/rancher/rio
+
+[submodule "runc"]
+	path = runc
+	url = https://github.com/opencontainers/runc
+
+[submodule "sarama"]
+	path = sarama
+	url = https://github.com/Shopify/sarama
+
+[submodule "symbolicator"]
+	path = symbolicator
+	url = https://github.com/getsentry/symbolicator
+
+[submodule "tke"]
+	path = tke
+	url = https://github.com/tkestack/tke
+
+[submodule "unipdf"]
+	path = unipdf
+	url = https://github.com/unidoc/unipdf
+
+[submodule "v"]
+	path = v
+	url = https://github.com/vlang/v
+
+[submodule "vector"]
+	path = vector
+	url = https://github.com/vectordotdev/vector
+
+[submodule "vfio-bindings"]
+	path = vfio-bindings
+	url = https://github.com/rust-vmm/vfio-bindings
+
+[submodule "vhost"]
+	path = vhost
+	url = https://github.com/rust-vmm/vhost
+
+[submodule "virtio-bindings"]
+	path = virtio-bindings
+	url = https://github.com/rust-vmm/virtio-bindings
+
+[submodule "vm-memory"]
+	path = vm-memory
+	url = https://github.com/rust-vmm/vm-memory
+
+[submodule "vm-superio"]
+	path = vm-superio
+	url = https://github.com/rust-vmm/vm-superio
+
+[submodule "vm-virtio"]
+	path = vm-virtio
+	url = https://github.com/rust-vmm/vm-virtio
+
+[submodule "vmm-sys-util"]
+	path = vmm-sys-util
+	url = https://github.com/rust-vmm/vmm-sys-util
+
+[submodule "wiredash-sdk"]
+	path = wiredash-sdk
+	url = https://github.com/wiredashio/wiredash-sdk
