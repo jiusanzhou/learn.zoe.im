@@ -221,3 +221,7 @@
 [submodule "wiredash-sdk"]
 	path = wiredash-sdk
 	url = https://github.com/wiredashio/wiredash-sdk
+
+[submodule "TencentOS-kernel"]
+	path = TencentOS-kernel
+	url = https://github.com/Tencent/TencentOS-kernel
