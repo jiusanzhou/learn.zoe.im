@@ -259,12 +259,15 @@ def create_app(engine: MiniEngine) -> FastAPI:
     @app.get("/stats")
     async def stats():
         """引擎状态。"""
+        # 兼容 MiniEngine 和 FullEngine
+        if hasattr(engine, 'get_stats'):
+            return engine.get_stats()
         return {
             "waiting": len(engine.waiting_queue),
             "running": len(engine.running_requests),
             "finished": len(engine.finished_requests),
-            "total_generated": engine.total_generated_tokens,
-            "cache_utilization": engine.allocator.utilization(),
+            "total_generated": getattr(engine, 'total_generated_tokens', 0),
+            "cache_utilization": engine.allocator.utilization() if hasattr(engine, 'allocator') else 0,
         }
     
     return app
